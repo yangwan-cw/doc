@@ -1,0 +1,18 @@
+# Node.js
+node_modules
+dist/
+build/
+
+# VitePress
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
