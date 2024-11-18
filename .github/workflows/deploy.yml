@@ -49,6 +49,8 @@ jobs:
         run: |
           pnpm docs:build 
           touch .nojekyll  # 通知githubpages不要使用Jekyll处理这个站点，不知道为啥不生效，就手动搞了
+      - name: List build output
+        run: ls -la . # 列出构建输出目录的内容
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
