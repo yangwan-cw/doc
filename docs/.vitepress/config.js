@@ -6,6 +6,6 @@ export default {
     description: 'Just playing around.',
   
     themeConfig: {
-      colorMode: "dark",
+      colorMode: "light",
     },
   }
