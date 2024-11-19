@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@fortawesome/fontawesome-free':
+        specifier: ^6.7.0
+        version: 6.7.0
     devDependencies:
       busuanzi.pure.js:
         specifier: ^1.0.3
@@ -269,6 +273,10 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fortawesome/fontawesome-free@6.7.0':
+    resolution: {integrity: sha512-lXTP8oiLGM97Aqjn47nod9awKe574HRfCngFizr7FiHTadKTiPkoVn0Mzg+tZBLD1XpE4CRvcF7/UM3g1jyVYw==}
+    engines: {node: '>=6'}
 
   '@iconify-json/simple-icons@1.2.11':
     resolution: {integrity: sha512-AHCGDtBRqP+JzAbBzgO8uN/08CXxEmuaC6lQQZ3b5burKhRU12AJnJczwbUw2K5Mb/U85EpSUNhYMG3F28b8NA==}
@@ -995,6 +1003,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fortawesome/fontawesome-free@6.7.0': {}
 
   '@iconify-json/simple-icons@1.2.11':
     dependencies:

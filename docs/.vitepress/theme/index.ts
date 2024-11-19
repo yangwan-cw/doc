@@ -4,6 +4,8 @@ import { inBrowser } from "vitepress";
 import busuanzi from "busuanzi.pure.js";
 import DataPanel from "./components/DataPanel.vue";
 import Confetti from "./components/Confetti.vue";
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 export default {
   extends: DefaultTheme,

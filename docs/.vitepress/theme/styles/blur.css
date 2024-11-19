@@ -61,6 +61,9 @@
       background-color: rgba(255, 255, 255, 0);
       backdrop-filter: blur(10px);
     }
+    .VPImage{
+      border-radius: 50%;
+    }
   
     /* 移动端大纲栏 */
     .VPLocalNav {
