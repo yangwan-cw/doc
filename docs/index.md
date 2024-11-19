@@ -44,24 +44,5 @@ features:
     link: /markdown-examples
 ---
 
-## 项目集合
-<div class="project-collection">
-  <div class="project-card">
-    <h3>项目 1</h3>
-    <p>描述项目 1 的内容，展示其功能和特点。</p>
-    <a href="/project-1" class="btn">查看项目</a>
-  </div>
-  <div class="project-card">
-    <h3>项目 2</h3>
-    <p>描述项目 2 的内容，展示其功能和特点。</p>
-    <a href="/project-2" class="btn">查看项目</a>
-  </div>
-  <div class="project-card">
-    <h3>项目 3</h3>
-    <p>描述项目 3 的内容，展示其功能和特点。</p>
-    <a href="/project-3" class="btn">查看项目</a>
-  </div>
-</div>
-
 <DataPanel />
 <Confetti />
