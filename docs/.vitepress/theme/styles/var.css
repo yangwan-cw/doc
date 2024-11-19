@@ -1,14 +1,14 @@
 /* var.css */
 :root {
-    --vp-c-brand-1: #18794e;
-    --vp-c-brand-2: #299764;
-    --vp-c-brand-3: #30a46c;
+  --vp-c-brand-1: #000000; /* 主品牌颜色 - 黑色 */
+  --vp-c-brand-2: #000000; /* 较深的品牌颜色 - 白色 */
+  --vp-c-brand-3: #CCCCCC; /* 较浅的品牌颜色 - 浅灰色 */
   }
   
   .dark {
-    --vp-c-brand-1: #3dd68c;
-    --vp-c-brand-2: #30a46c;
-    --vp-c-brand-3: #298459;
+    --vp-c-brand-1: #FFFFFF; /* 深色模式主品牌颜色 - 白色 */
+    --vp-c-brand-2: #FFFFFF; /* 深色模式较深的品牌颜色 - 黑色 */
+    --vp-c-brand-3: #CCCCCC; /* 深色模式较浅的品牌颜色 - 浅灰色 */
   }
   /* 以前的vp-c-brand已弃用 */
   
