@@ -1,0 +1,28 @@
+.project-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 卡片之间的间距 */
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #f9f9f9; /* 卡片背景色 */
+    border: 1px solid #ddd; /* 边框 */
+    border-radius: 8px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    width: 300px; /* 卡片宽度 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.project-card h3 {
+    margin: 0 0 10px; /* 标题的下边距 */
+}
+
+.project-card .btn {
+    display: inline-block;
+    background-color: #34fe67; /* 按钮背景色 */
+    color: white; /* 按钮文字颜色 */
+    padding: 10px 15px; /* 按钮内边距 */
+    border-radius: 5px; /* 按钮圆角 */
+    text-decoration: none; /* 去掉下划线 */
+}
