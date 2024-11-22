@@ -7,7 +7,7 @@ hero:
   text: "全栈开发知识体系"
   tagline: 记录生活，分享技术
   image:
-    src: "/logo.jpg"
+    src: "/index-logo.svg"
     alt: "My Logo"
   actions:
     - theme: brand
@@ -15,13 +15,13 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 关于我
-      link: /about
+      link: /关于/myself/index
 
 features:
   - icon: <i class="fas fa-code"></i>
     title: 前端
     details: 记录前端开发中遇到的问题和解决方案
-    link: /markdown-examples
+    link: /前端知识体系/Html/基础/1.引言
   - icon: <i class="fas fa-server"></i>
     title: 后端
     details: 记录后端开发中遇到的问题和解决方案
@@ -44,5 +44,6 @@ features:
     link: /markdown-examples
 ---
 
+<SocialLink />
 <DataPanel />
 <Confetti />
