@@ -1,3 +1,10 @@
+<!--
+ * @Author       : sutton
+ * @Date         : 2024-11-23 00:32:26
+ * @LastEditors  : Please set LastEditors
+ * @LastEditTime : 2024-11-25 00:13:33
+ * @Description  : 请填写简介
+-->
 # 关于我🧑
 ## 个人介绍
 ```java
@@ -7,13 +14,18 @@ public class HelloWorld {
     }
 }
 ```
-我是binbin，一个喜欢研究技术的后端开发工程师。时间可过得真快，转瞬即逝，从事已经有一年半左右了，自己还是属于小白，所以，我需要不断的学习，不断的挖掘 & 进步，不断的提升自己。
+我是**binbin**，一个热衷于探索技术深度的后端开发工程师。时光飞逝，转眼间已在这个领域耕耘一年半有余。虽说时间不长，但每一天都在技术的海洋中畅游，感受着编程的魅力。作为一名永远保持谦逊的学习者，我深知技术的广度和深度都是无穷的。因此，我始终保持着强烈的求知欲，不断地学习、探索、突破，努力在技术的道路上砥砺前行。
+
+我坚信，技术的成长没有捷径，唯有持续不断的学习与实践，才能在这个快速发展的互联网时代站稳脚跟。这个博客，就是我记录学习、分享心得的一片天地，也希望能够帮助到同样在技术道路上奋斗的朋友们。
 ## 技能与专长
-- 编程语言：Java, Python, JavaScript
-- 前端框架：React, Vue
-- 后端框架：Spring Boot, Express
-- 数据库：MySQL, MongoDB
-- 工具：Git, Docker, Jenkins
+
+| 类别 | 技术栈 |
+| :--- | :--- |
+| 编程语言 | Java、Python、JavaScript、C++ |
+| 前端框架 | React、Vue |
+| 后端框架 | Spring Boot、Express |
+| 数据库 | MySQL、MongoDB |
+| 工具 | Git、Docker、Jenkins |
 
 ## 目标
 - 成为一名优秀的后端开发工程师
@@ -21,31 +33,35 @@ public class HelloWorld {
 - 希望自己能够坚持学习，坚持锻炼，坚持写作，坚持分享
 
 ## 开发项目
-| 项目名        |      领域      |  地址 |
-| ------------- | :-----------: | ----: |
-| TODOLIST      | 小程序开发 & Web | [TODOLIST](https://github.com/binbin-yang/todolist) |
+
 
 
 ## 项目经验
-### TODOLIST
-- **项目描述**：一个简单的待办事项管理应用，用户可以添加、删除和标记任务。
-- **技术栈**：React, Node.js, Express, MongoDB
-- **我的角色**：负责前端开发，设计用户界面和实现功能。
 
-## 学习计划
-- 深入学习微服务架构
-- 掌握更多前端框架（如 Angular）
-- 学习云计算和 DevOps
+## 未来计划
 
 ## 个人兴趣
 - 阅读技术书籍和博客
 - 参加编程比赛和黑客松
 - 旅行和摄影
+- 音乐
+
+## 偶像
+- 埃隆·马斯克
+
+
+### 为什么喜欢马斯克
+笔者，喜欢马斯克，是因为马斯克身上有太多值得我们学习的地方。
+- 创新
+- 对问题有自己独到的见解，这个是最主要的
+- 梦想
+- 执行力
+
+
 
 ## 联系方式
-- 邮箱：your_email@example.com
-- GitHub：[your_github_profile](https://github.com/your_github_profile)
-- LinkedIn：[your_linkedin_profile](https://linkedin.com/in/your_linkedin_profile)
+- <i class="fa-solid fa-envelope" style="margin-right: 5px; color: #EA4335;"></i>邮箱：a2572213252@gmail.com
+- <i class="fab fa-github" style="margin-right: 5px; color: #24292E;"></i>GitHub：[binbin-yang](https://github.com/binbin-yang)
 
 ## 反馈与建议
 ::: warning
