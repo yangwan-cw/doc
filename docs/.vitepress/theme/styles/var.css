@@ -30,6 +30,10 @@
     --vp-home-hero-image-filter: blur(40px);
   }
   
+strong {
+  font-weight: bold;
+  color: #fc3b3b;
+}
   /* 提示框 */
 .custom-block.tip {
   border-color: var(--vp-c-green-2);
