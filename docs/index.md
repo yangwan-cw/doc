@@ -6,9 +6,9 @@ hero:
   name: "斌斌的"
   text: "全栈开发知识体系"
   tagline: 记录生活，分享技术
-  image:
-    src: "/index-logo.svg"
-    alt: "My Logo"
+  # image:
+  #   src: "/index-logo.svg"
+  #   alt: "My Logo"
   actions:
     - theme: brand
       text: 文档
