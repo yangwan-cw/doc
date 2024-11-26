@@ -29,7 +29,9 @@
     ); 
     --vp-home-hero-image-filter: blur(40px); */
   }
-  
+.VPLink link link  > p{
+  background-color: #fc3b3b;
+}
 strong {
   font-weight: bold;
   color: #fc3b3b;

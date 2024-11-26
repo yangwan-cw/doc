@@ -44,6 +44,11 @@ features:
     link: /markdown-examples
 ---
 
+
+
+
 <SocialLink />
 <DataPanel />
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 <Confetti />

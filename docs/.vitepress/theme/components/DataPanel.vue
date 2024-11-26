@@ -5,7 +5,7 @@
     <div class="container">
       <section class="grid">
         <span class="text">
-          本站总访问量
+          本站总访问量: 
           <span id="busuanzi_value_site_pv" class="font-bold">--</span> 次
         </span>
         <i class="fas fa-heart" style="font-size: 30px;"></i> <!-- 设置为红色 -->
