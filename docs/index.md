@@ -44,11 +44,16 @@ features:
     link: /markdown-examples
 ---
 
-
-
-
 <SocialLink />
 <DataPanel />
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
+## 贡献者 <i class="fas fa-users" style="margin-left: 5px; color: #28a745;"></i>
+<div class="contribution" style="display: flex;align-items: center;justify-content: center; border-radius: 50px; ">
+ <a href="https://github.com/yangwan-cw/doc/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yangwan-cw/doc" />
+</a>
+</div>
+
+
+
+Made with [contrib.rocks](https://contrib.rocks).
 <Confetti />
