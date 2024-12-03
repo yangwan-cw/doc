@@ -15,7 +15,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 关于我
-      link: /关于/myself/index
+      link: /10.关于我/index
 
 features:
   - icon: <i class="fas fa-code"></i>
