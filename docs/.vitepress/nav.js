@@ -1,12 +1,14 @@
+import { SiPwa } from 'react-icons/si';
+
 export default [
   {
-    text: '<i class="fa-solid fa-globe" style="margin-right: 10px; color: #0078d7;"></i>前端', items: [
+    text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #4A90E2;"></i>前端开发', items: [
       {
         text: '基础知识',items: [
-          { text: '<i class="fab fa-html5" style="margin-right: 10px; color: #E44D26;"></i>Html', link: '/前端知识体系/Html/基础/1.引言' },
-          { text: '<i class="fab fa-html5" style="margin-right: 10px; color: #E44D26;"></i>Html5', link: '/前端知识体系/Html/Html5/1.Html5' },
-          { text: '<i class="fab fa-css3-alt" style="margin-right: 10px; color: #264DE4;"></i>Css', link: '/前端知识体系/Css/index', },
-          { text: '<i class="fab fa-css3-alt" style="margin-right: 10px; color: #264DE4;"></i>Css3', link: '/前端知识体系/Css3/1.Css3' },
+          { text: '<i class="fab fa-html5" style="margin-right: 10px; color: #E44D26;"></i>Html', link: '/前端开发/Html/基础/1.引言' },
+          { text: '<i class="fab fa-html5" style="margin-right: 10px; color: #E44D26;"></i>Html5', link: '/前端开发/Html/Html5/1.Html5' },
+          { text: '<i class="fab fa-css3-alt" style="margin-right: 10px; color: #264DE4;"></i>Css', link: '/前端开发/Css/index', },
+          { text: '<i class="fab fa-css3-alt" style="margin-right: 10px; color: #264DE4;"></i>Css3', link: '/前端开发/Css3/1.Css3' },
           { text: '<i class="fab fa-js" style="margin-right: 10px; color: #F7DF1E;"></i>JavaScript', link: '/markdown-examples' },
         ]
       },
@@ -40,7 +42,6 @@ export default [
       },
       {
         text: '其他', items: [
-          { text: '<i class="fab fa-git-alt" style="margin-right: 10px; color: #F05032;"></i>Git', link: '/markdown-examples' },
           { text: '<i class="fab fa-docker" style="margin-right: 10px; color: #2496ED;"></i>Docker', link: '/markdown-examples' },
           { text: '<i class="fa-solid fa-server" style="margin-right: 10px; color: #009639;"></i>Nginx', link: '/markdown-examples' },
           { text: '<i class="fa-solid fa-gauge-high" style="margin-right: 10px; color: #FF4081;"></i>性能优化', link: '/markdown-examples' },
@@ -53,7 +54,7 @@ export default [
     ]
   },
   {
-    text: '<i class="fa-solid fa-database" style="margin-right: 10px; color: #28a745;"></i>后端', items: [
+    text: '<i class="fa-solid fa-server" style="margin-right: 10px; color: #000000;"></i>后端开发', items: [
       {
         text: 'Java 基础知识', items: [
           { text: '<i class="fab fa-java" style="margin-right: 10px; color: #007396;"></i>Java', link: '/后端知识体系/Java/index' },
@@ -62,15 +63,7 @@ export default [
           { text: '<i class="fa-solid fa-shapes" style="margin-right: 10p x; color: #4CAF50;"></i>设计模式', link: '/后端知识体系/设计模式/index' },
         ]
       },
-      {
-        text: '408', items: [
-          { text: '<i class="fa-solid fa-sitemap" style="margin-right: 10px; color: #2196F3;"></i>数据结构', link: '/后端知识体系/数据结构/index' },
-          { text: '<i class="fa-solid fa-laptop-code" style="margin-right: 10px; color: #9C27B0;"></i>计算机基础', link: '/后端知识体系/计算机基础/index' },
-          { text: '<i class="fa-solid fa-desktop" style="margin-right: 10px; color: #607D8B;"></i>操作系统', link: '/后端知识体系/操作系统/index' },
-          { text: '<i class="fa-solid fa-network-wired" style="margin-right: 10px; color: #00BCD4;"></i>计算机网络', link: '/后端知识体系/计算机网络/index' },
-          { text: '<i class="fa-solid fa-microchip" style="margin-right: 10px; color: #FF9800;"></i>计算机组成原理', link: '/后端知识体系/计算机组成原理/index' },
-        ]
-      },
+  
       {
         text: '数据库', items: [
           { text: '<i class="fa-solid fa-database" style="margin-right: 10px; color: #00758F;"></i>Mysql', link: '/后端知识体系/Mysql/index' },
@@ -106,39 +99,65 @@ export default [
     ]
   },
   {
-    text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #00599C;"></i>C++', items: [
+    text: '<i class="fa-solid fa-cubes" style="margin-right: 10px; color: #00599C;"></i>C++ 编程', items: [
       { text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #00599C;"></i>C++', link: '/后端知识体系/C++/index' },
     ]
   },
   {
-    text: '<i class="fab fa-python" style="margin-right: 10px; color: #3776AB;"></i>Python', items: [
-      { text: '<i class="fab fa-python" style="margin-right: 10px; color: #3776AB;"></i>Python', link: '/后端知识体系/Python/index' },
+    text: '<i class="fa-brands fa-python" style="margin-right: 10px; color: #FFD43B;"></i>Python 编程', items: [
+      { text: '<i class="fab fa-python" style="margin-right: 10px; color: #3776AB;"></i>Python', link: '/4.Python编程/index' },
     ]
   },
   {
-    text: '<i class="fa-solid fa-lightbulb" style="margin-right: 10px; color: #ffb800;"></i>零碎', items: [
-      { text: '<i class="fa-solid fa-graduation-cap" style="margin-right: 10px; color: #4CAF50;"></i>如何学习', link: '/零碎知识/如何学习' },
+    text: '<i class="fa-solid fa-book" style="margin-right: 10px; color: #00599C;"></i>基础知识', items: [
+      {
+        text: '基本概念', items: [
+          { text: '编程概念', link: '/5.基础知识/编程概念/index' },
+          { text: '开发术语', link: '/5.基础知识/开发术语/index' },
+          { text: '408', link: '/5.基础知识/408/index' },
+        ]
+      },
+      {
+        text: '前置知识', items: [
+          { text: '<i class="fa-brands fa-searchengin" style="margin-right: 10px; "></i>如何在github找项目', link: '/零碎知识/如何学习' },
+          { text: '<i class="fa-solid fa-graduation-cap" style="margin-right: 10px; color: #4CAF50;"></i>如何学习', link: '/零碎知识/如何学习' },
+          { text: '<i class="fab fa-git-alt" style="margin-right: 10px; color: #F05032;"></i>Git', link: '/markdown-examples' },
+          { text: '<i class="fa-solid fa-building" style="margin-right: 10px; color: #00599C;"></i>公选课', link: '/公选课/index' },        ]
+      },
+      {
+        text: '408', items: [
+          { text: '<i class="fa-solid fa-sitemap" style="margin-right: 10px; color: #2196F3;"></i>数据结构', link: '/后端知识体系/数据结构/index' },
+          { text: '<i class="fa-solid fa-laptop-code" style="margin-right: 10px; color: #9C27B0;"></i>计算机基础', link: '/后端知识体系/计算机基础/index' },
+          { text: '<i class="fa-solid fa-desktop" style="margin-right: 10px; color: #607D8B;"></i>操作系统', link: '/后端知识体系/操作系统/index' },
+          { text: '<i class="fa-solid fa-network-wired" style="margin-right: 10px; color: #00BCD4;"></i>计算机网络', link: '/后端知识体系/计算机网络/index' },
+          { text: '<i class="fa-solid fa-microchip" style="margin-right: 10px; color: #FF9800;"></i>计算机组成原理', link: '/后端知识体系/计算机组成原理/index' },
+        ]
+      },
+    ]
+  },
+  {
+    text: '<i class="fa-solid fa-lightbulb" style="margin-right: 10px; color: #ffb800;"></i>知识拓展', items: [
       { text: '<i class="fa-solid fa-comments" style="margin-right: 10px; color: #2196F3;"></i>如何面试', link: '/零碎知识/如何面试' },
       { text: '<i class="fa-solid fa-file-alt" style="margin-right: 10px; color: #9C27B0;"></i>如何写简历', link: '/零碎知识/如何写简历' },
       { text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #FF5722;"></i>代码整洁之道', link: '/零碎知识/代码整洁之道' },
     ]
   },
   {
-    text: '<i class="fa-solid fa-heart" style="margin-right: 10px; color: #dc3545;"></i>生活', items: [
+    text: '<i class="fa-solid fa-heart" style="margin-right: 10px; color: #dc3545;"></i>生活记录', items: [
       { text: '<i class="fa-solid fa-book-open" style="margin-right: 10px; color: #FF6B6B;"></i>日记本', link: '/markdown-examples' },
       { text: '<i class="fa-solid fa-images" style="margin-right: 10px; color: #4ECDC4;"></i>相册', link: '/api-examples' },
       { text: '<i class="fa-solid fa-music" style="margin-right: 10px; color: #FF6B81;"></i>音乐', link: '/api-examples' }
     ]
   },
   {
-    text: '<i class="fa-solid fa-blog" style="margin-right: 10px; color: #6f42c1;"></i>博客', link: '/markdown-examples'
+    text: '<i class="fa-solid fa-blog" style="margin-right: 10px; color: #6f42c1;"></i>个人博客', link: '/markdown-examples'
   },
   {
-    text: '<i class="fa-solid fa-folder" style="margin-right: 10px; color: #fd7e14;"></i>项目', items: [
+    text: '<i class="fa-solid fa-folder" style="margin-right: 10px; color: #fd7e14;"></i>项目展示', items: [
       { text: 'TodoList', link: '/markdown-examples' },
     ]
   },
   {
-    text: '<i class="fa-solid fa-user" style="margin-right: 10px; color: #6c757d;"></i>关于', link: '/关于/myself'
+    text: '<i class="fa-solid fa-user" style="margin-right: 10px; color: #6c757d;"></i>关于我', link: '/10.关于我/index'
   }
 ]

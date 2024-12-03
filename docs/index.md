@@ -46,7 +46,7 @@ features:
 
 <SocialLink />
 <DataPanel />
-## 贡献者 <i class="fas fa-users" style="margin-left: 5px; color: #28a745;"></i>
+## 贡献者 <i class="fas fa-users" style="margin-left: 5px; color: #3ac7ff;"></i>
 <div class="contribution" style="display: flex;align-items: center;justify-content: center; border-radius: 50px; ">
  <a href="https://github.com/yangwan-cw/doc/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yangwan-cw/doc" />

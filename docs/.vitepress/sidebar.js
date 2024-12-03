@@ -22,10 +22,16 @@ export default {
         {text:'引言',link:'/前端知识体系/Css3/1.Css3'},
       ]}
     ],
-    '/关于/':[
+    '/4.Python编程/':[
       {text:'',items:[
-        {text:'个人信息',link:'/关于/myself'},
-        {text:'简历文件',link:'/关于/resume'},
+        {text:'1. Python 学习路线',link:'/4.Python编程/Python学习路线/index'},
+        {text:'2. 引言',link:'/4.Python编程/index'},
+      ]}
+    ],
+    '/10.关于我/':[
+      {text:'',items:[
+        {text:'个人信息',link:'/10.关于我/index'},
+        {text:'简历文件',link:'/10.关于我/resume'},
       ]}
     ],
     

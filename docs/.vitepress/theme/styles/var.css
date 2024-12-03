@@ -17,8 +17,8 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(
       120deg,
-      #07C160,
-      #06ad55
+      #00A8E8,
+      #bbeafd
     );
   
     /*hero logo背景渐变色 */
@@ -56,7 +56,7 @@ strong {
   :root {
     /* --vp-button-brand-border: #ffffff; */
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #07C160;
+    --vp-button-brand-bg: #3ac7ff;
 /*   
     --vp-button-brand-hover-border: #F6CEEC; */
     /* --vp-button-brand-hover-text: #fff;
