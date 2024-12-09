@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PingFang SC';
+    src: url('../../assets/pingfang2.ttf') format('truetype'); /* 提供多种格式以兼容不同浏览器 */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'PingFang SC', sans-serif;
+  }

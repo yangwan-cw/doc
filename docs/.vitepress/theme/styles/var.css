@@ -47,6 +47,15 @@ strong {
   border-color: var(--vp-c-yellow-2);
 }
 
+
+ul li::marker{
+  color: #1456F0;
+}
+
+ol li::marker{
+  color: #1456F0;
+}
+
 /* 危险框 */
 .custom-block.danger {
   /* border-color: #f43f5e; */
