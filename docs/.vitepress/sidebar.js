@@ -24,11 +24,6 @@ export default {
         {text:'前言',link:'/5.基础知识/前言/index'},
       ]},
     ],
-    '/6.知识拓展/':[
-      {text:'',items:[
-        {text:'前言',link:'/6.知识拓展/前言/index'},
-      ]},
-    ],
     '/8.零碎知识/常用工具':[
       {text:'概述',link:'/8.零碎知识/常用工具/index'},
       {text:'docker',items:[

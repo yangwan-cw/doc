@@ -176,8 +176,8 @@ export default [
       ] },
       { text: '<i class="fa-solid fa-comments" style="margin-right: 10px; color: #2196F3;"></i>如何面试', link: '/零碎知识/如何面试' },
       { text: '<i class="fa-solid fa-file-alt" style="margin-right: 10px; color: #9C27B0;"></i>如何写简历', link: '/零碎知识/如何写简历' },
-      { text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #FF5722;"></i>代码整洁之道', link: '/零碎知识/代码整洁之道' },
-      { text: '<i class="fa-solid fa-toolbox" style="margin-right: 10px; color: red;"></i>程序员工具集', link: '/8.零碎知识/tool' }
+      { text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #FF5722;"></i>代码整洁之道', link: '/6.知识拓展/代码整洁之道' },
+      { text: '<i class="fa-solid fa-toolbox" style="margin-right: 10px; color: red;"></i>程序员工具集', link: '/6.知识拓展/tool' }
     ]
   },
   {
