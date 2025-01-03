@@ -60,7 +60,7 @@ export default [
     ]
   },
   {
-    text: '<i class="fa-solid fa-server" style="margin-right: 10px; color: #000000;"></i>后端开发', items: [
+    text: '<i class="fa-solid fa-server" style="margin-right: 10px; color: #000000;"></i>Java 开发', items: [
       { text: '', items:[
         { text: '<i class="fa-solid fa-comments" style="margin-right: 10px; color: #009A61;"></i>学习知识前言', link: '/2.后端开发/前言/index' },
       ] },
