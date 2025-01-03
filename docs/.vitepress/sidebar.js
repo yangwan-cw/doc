@@ -75,6 +75,7 @@ export default {
       {text:'',items:[
         {text:'个人信息',link:'/10.关于我/index'},
         {text:'简历文件',link:'/10.关于我/resume'},
+        {text:'目标',link:'/10.关于我/aim.md'}
       ]}
     ],
     
