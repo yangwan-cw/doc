@@ -55,8 +55,8 @@ public class HelloWorld {
 - 技术学习
 
 ##  联系方式
-- <i class="fa-solid fa-envelope" style="margin-right: 5px; "></i> 邮箱：a2572213252@gmail.com
-- <i class="fab fa-github" style="margin-right: 5px; color: #24292E;"></i> GitHub：[yangwang-cw](https://github.com/yangwan-cw)
+- Email：a2572213252@gmail.com
+- GitHub：[yangwang-cw](https://github.com/yangwan-cw)
 
 感谢你访问我的技术文档，希望我们能一起成长,能够编程道路上越走越远！！！
 
