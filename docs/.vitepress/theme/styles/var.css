@@ -18,7 +18,7 @@
     --vp-home-hero-name-background: -webkit-linear-gradient(
       120deg,
       #00A8E8,
-      #bbeafd
+      #00A8E8
     );
   
     /*hero logo背景渐变色 */
@@ -65,7 +65,7 @@ ol li::marker{
   :root {
     /* --vp-button-brand-border: #ffffff; */
     --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #3ac7ff;
+    --vp-button-brand-bg: #00A8E8;
 /*   
     --vp-button-brand-hover-border: #F6CEEC; */
     /* --vp-button-brand-hover-text: #fff;
