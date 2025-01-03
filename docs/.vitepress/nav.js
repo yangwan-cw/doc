@@ -136,7 +136,7 @@ export default [
       { text: '<i class="fa-solid fa-file-upload" style="margin-right: 10px; color: #2196F3;"></i>大文件上传', link: '/8.零碎知识/大文件上传&下载/index' },
       { text: '<i class="fa-solid fa-file-upload" style="margin-right: 10px; color: #2196F3;"></i>websocket', link: '/8.零碎知识/websocket/index' },
       { text: '<i class="fa-solid fa-code-compare" style="margin-right: 10px; color: black;"></i>Github Action', link: '/8.零碎知识/websocket/index' },
-      {text: '<i class="fa-solid fa-toolbox" style="margin-right: 10px; color: #FF5722;"></i>常用工具', link: '/8.零碎知识/常用工具/index'}
+      {text: '<i class="fa-solid fa-toolbox" style="margin-right: 10px; color: #FF5722;"></i>常用工具零碎', link: '/8.零碎知识/常用工具/index'}
     ]
   },
   {
@@ -177,14 +177,7 @@ export default [
       { text: '<i class="fa-solid fa-comments" style="margin-right: 10px; color: #2196F3;"></i>如何面试', link: '/零碎知识/如何面试' },
       { text: '<i class="fa-solid fa-file-alt" style="margin-right: 10px; color: #9C27B0;"></i>如何写简历', link: '/零碎知识/如何写简历' },
       { text: '<i class="fa-solid fa-code" style="margin-right: 10px; color: #FF5722;"></i>代码整洁之道', link: '/零碎知识/代码整洁之道' },
-    ]
-  },
-  {
-    text: '<i class="fa-solid fa-heart" style="margin-right: 10px; color: #dc3545;"></i>生活记录', items: [
-      { text: '<i class="fa-solid fa-blog" style="margin-right: 10px; color: #6f42c1;"></i>个人博客', link: '/markdown-examples' },
-      { text: '<i class="fa-solid fa-book-open" style="margin-right: 10px; color: #FF6B6B;"></i>日记本', link: '/markdown-examples' },
-      { text: '<i class="fa-solid fa-images" style="margin-right: 10px; color: #4ECDC4;"></i>相册', link: '/api-examples' },
-      { text: '<i class="fa-solid fa-music" style="margin-right: 10px; color: #FF6B81;"></i>音乐', link: '/api-examples' }
+      { text: '<i class="fa-solid fa-toolbox" style="margin-right: 10px; color: red;"></i>程序员工具集', link: '/8.零碎知识/tool' }
     ]
   },
   {
