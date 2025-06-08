@@ -108,7 +108,29 @@ JavaScript 是一种运行在浏览器中的脚本语言，用于实现网页的
 **生活中的例子：**
 - 如果把 HTML 比作房子的骨架，JavaScript 就像房子里的电路和开关，让房子“动”起来，比如开灯、关门等。
 
+## 什么是前后端分离
 
+
+## 为什么需要前后端分离
+
+
+## 前端多领域开发技术方案
+
+
+| 领域 | 主要应用场景 | 技术方案 | 代表框架/工具 | 学习资源 |
+|------|--------------|----------|---------------|----------|
+| **Web应用** | 企业官网、信息展示页 | 基础三件套 | HTML5, CSS3, JavaScript | [MDN Web文档](https://developer.mozilla.org/zh-CN/) |
+|  | 后台管理系统 | 前端框架 | Vue.js, React, Angular | [Vue Admin模板](https://github.com/PanJiaChen/vue-element-admin) |
+|  | 移动端H5 | 响应式设计 | Flex布局, Grid布局, REM单位 | [响应式设计指南](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Responsive_Design) |
+| **小程序** | 微信/支付宝小程序 | 小程序框架 | Taro, uni-app, 原生开发 | [uni-app文档](https://uniapp.dcloud.net.cn/) |
+|  | 跨平台小程序 | 多端统一方案 | uni-app, Taro | [Taro文档](https://taro-docs.jd.com/docs/) |
+| **移动应用** | 原生体验应用 | React Native | React Native + 原生模块 | [React Native文档](https://reactnative.dev/) |
+|  | 跨平台应用 | 混合开发 | uni-app, Flutter, Ionic | [uni-app移动端](https://uniapp.dcloud.net.cn/tutorial/platform.html) |
+| **桌面应用** | Windows/macOS应用 | Electron | Electron + 前端框架 | [Electron文档](https://www.electronjs.org/) |
+|  | 轻量级桌面应用 | Web技术封装 | Tauri, NW.js | [Tauri文档](https://tauri.app/) |
+| **服务端** | API服务 | Node.js运行时 | Express, Koa, NestJS | [Express指南](https://expressjs.com/) |
+|  | 全栈开发 | 服务端渲染 | Next.js (React), Nuxt.js (Vue) | [Next.js文档](https://nextjs.org/docs) |
+|  | 数据库操作 | ORM工具 | TypeORM, Sequelize | [TypeORM指南](https://typeorm.io/#/) |
 
 
 ## 什么是开发规范 & 代码规范 & 封装思想

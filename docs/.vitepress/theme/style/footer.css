@@ -8,7 +8,7 @@
 
 .VPFooter .message:hover {
     opacity: 1; /* 悬停时取消透明度 */
-    color: black;
+    color: var(--vp-c-text-1);;
     font-weight: bold
 }
 

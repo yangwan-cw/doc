@@ -15,6 +15,10 @@
                 {
                     text: "如何学习",
                     link: '/frontend/how-to-learn',
+                },
+                {
+                    text: "官方文档",
+                    link: '/frontend/documentation',
                 }
               ]  
             },
@@ -22,8 +26,12 @@
                 text: "HTML",
                 items: [
                     {
+                        text: "开始",
+                        link: '/frontend/html',
+                    },
+                    {
                         text: "语义化标签",
-                        link: '/frontend/',
+                        link: '/frontend/html',
                     },
                     {
                         text: "新特性",
@@ -35,13 +43,29 @@
                 text: "CSS",
                 items: [
                     {
-                        text: "预处理器",
+                        text: "开始",
+                        link: '/frontend/css',
+                    },
+                    {
+                        text: "布局",
+                        link: '/frontend/css',
+                    },
+                    {
+                        text: "样式",
+                        link: '/frontend/css',
+                    },
+                    {
+                        text: "动画",
+                        link: '/frontend/css',
+                    },
+                    {
+                        text: "CSS3",
                         link: '/frontend/',
                     },
                     {
-                        text: "框架",
+                        text: "预处理器",
                         link: '/frontend/',
-                    }
+                    },
                 ]
             },
             {
