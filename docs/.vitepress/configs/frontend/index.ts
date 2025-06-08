@@ -2,6 +2,23 @@
         text: "前端",
         items: [
             {
+              text: "概述",
+              items:[
+                {
+                    text: "前端概述",
+                    link: '/frontend/',
+                },
+                {
+                  text:"前端基础知识",
+                    link: '/frontend/fundamentals',  
+                },
+                {
+                    text: "如何学习",
+                    link: '/frontend/how-to-learn',
+                }
+              ]  
+            },
+            {
                 text: "HTML",
                 items: [
                     {

@@ -30,28 +30,12 @@ export default withMermaid(defineConfig({
                 ariaLabel: 'wechat'
             }
         ],
-        //上次更新时间 //
-        // lastUpdated: {
-        //     text: '最后更新于',
-        //     formatOptions: {
-        //         dateStyle: 'short', // 可选值full、long、medium、short
-        //         timeStyle: 'medium' // 可选值full、long、medium、short
-        //     },
-        // },
         docFooter: {
             prev: '上一页',
             next: '下一页',
         },
         sidebar: {
-            '/preview/': [
-                {
-                    text: '知识体系概览',
-                    items: [
-                        { text: '概述', link: '/preview/' },
-                        {text:'学习路线',link:'/preview/learning-path'},
-                    ]
-                }
-            ],
+         
             '/about/': [
                 {
                     text: '文档大纲',

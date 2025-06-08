@@ -1,5 +1,5 @@
 const backendConfig = {
-        text: 'Java 教程', items: [
+        text: 'Java', items: [
             {
                 text: '面向对象与基础',
                 items: [
