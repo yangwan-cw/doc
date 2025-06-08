@@ -1,0 +1,62 @@
+.vp-doc a {
+    text-decoration: none;
+}
+.medium-zoom-overlay {
+    z-index: 30;
+}
+
+.medium-zoom-image {
+    z-index: 9999 !important;
+}
+
+:root {
+    /* 标题 */
+    /*--vp-home-hero-name-color: transparent;*/
+    /*--vp-home-hero-name-background: linear-gradient(135deg, #76c4fd 10%, #bbe2fe 100%);*/
+
+
+    /*--vp-home-hero-image-background-image: linear-gradient(135deg, #bbe2fe 10%, #76c4fd 100%);*/
+    /*--vp-home-hero-image-filter: blur(150px);*/
+
+    /* 按钮主题 */
+    /*--vp-button-brand-text: red;*/
+    /*--vp-button-brand-border: green;*/
+    /* --vp-button-brand-bg: #43aefc; */
+
+    /* 主题色 */
+     --vp-c-indigo-1: #096DD9;
+
+    /* 内容宽度  */
+    --vp-layout-max-width: 90%;
+    /* 序列 */
+    --marker-color-light: #1356F0;
+    --marker-color-dark: #fff; 
+}
+body {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% auto;
+    max-height: 100%;
+    height: 460px;
+}
+
+.VPDoc .content-container{
+    max-width: 100% !important;
+}
+
+
+/* 浅色主题：marker 为蓝色 */
+@media (prefers-color-scheme: light) {
+  ::marker {
+    color: var(--marker-color-light); /* 蓝色 */
+    font-size: 15px;
+  }
+}
+
+/* 深色主题：marker 为白色 */
+@media (prefers-color-scheme: dark) {
+  ::marker {
+    color: #fff; /* 白色 */
+    font-size: 15px;
+  }
+}

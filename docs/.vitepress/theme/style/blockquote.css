@@ -1,0 +1,8 @@
+/* 美化文档中的引用块样式 */
+.vp-doc blockquote {
+    border-radius: 2px; 
+    padding: 18px 20px 20px 15px; 
+    position: relative;
+    /* background-color: var(--vp-c-gray-soft); */
+    border-left: 6px solid #3DCA5F; 
+}

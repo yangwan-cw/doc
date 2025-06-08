@@ -1,0 +1,6 @@
+.container *{
+    pointer-events: unset !important;
+}
+.container>.content{
+    pointer-events: auto !important;
+}

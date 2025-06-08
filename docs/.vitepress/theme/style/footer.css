@@ -1,0 +1,17 @@
+.VPFooter .message {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    transition: opacity 0.2s;
+}
+
+.VPFooter .message:hover {
+    opacity: 1; /* 悬停时取消透明度 */
+    color: black;
+    font-weight: bold
+}
+
+.copy-btn:active {
+    transform: scale(0.95); /* 点击缩放动画 */
+}
