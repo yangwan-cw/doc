@@ -7,6 +7,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import timeline from "vitepress-markdown-timeline";
 
+
 export default withMermaid(defineConfig({
     lang: 'zh-CN',//语言，可选 en-US
     title: "烊婉的学习笔记",
@@ -14,6 +15,7 @@ export default withMermaid(defineConfig({
     head: head,
     base: '/',
     lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
+   
     themeConfig: {
         logo: '/logo.png',
         search: {

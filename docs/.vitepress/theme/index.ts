@@ -10,6 +10,7 @@ import 'vitepress-plugin-back-to-top/dist/style.css'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import WDocTitleMeta from './components/WDocTitleMeta.vue' //文章顶部
+import MyLayout from './components/MyLayout.vue'
 
 export default {
     extends: DefaultTheme,
@@ -42,7 +43,7 @@ export default {
             props.class = frontmatter.value.layoutClass
         }
 
-        return h(DefaultTheme.Layout, props)
+        return h(MyLayout, props)
     },
     setup() {
         const route = useRoute();
