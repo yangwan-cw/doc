@@ -65,6 +65,15 @@ export default withMermaid(defineConfig({
         config(md) {
             md.use(groupIconMdPlugin) //代码组图标
             md.use(timeline);
+            // 创建 markdown-it 插件
+            md.use((md) => {
+                // 组件插入h1标题下
+                md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+                    let htmlResult = slf.renderToken(tokens, idx, options)
+                    if (tokens[idx].tag === 'h1') htmlResult += `<weiz-title-meta />`
+                    return htmlResult
+                }
+            })
         },
         //行号显示
         lineNumbers: true,

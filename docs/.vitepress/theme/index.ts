@@ -7,22 +7,30 @@ import 'virtual:group-icons.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
+import { inBrowser } from 'vitepress'
+import busuanzi from 'busuanzi.pure.js'
+import WDocTitleMeta from './components/WDocTitleMeta.vue' //文章顶部
 
 export default {
     extends: DefaultTheme,
-    enhanceApp({ app }) {
+    enhanceApp({ app, router  }) {
         // 注册全局组件
         import('./components/MNavLinks.vue').then(module => {
             app.component('MNavLinks', module.default)
         })
-        import('./components/PageInfo.vue').then(module => {
-            app.component('PageInfo', module.default)
-        })
 
+        app.component('weiz-title-meta', WDocTitleMeta)
+
+      
         vitepressBackToTop({
-            // default
             threshold: 300
         })
+
+        if (inBrowser) {
+            router.onAfterRouteChanged = () => {
+              busuanzi.fetch()
+            }
+          }
     },
     Layout: () => {
         const props: Record<string, any> = {}
