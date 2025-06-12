@@ -5,7 +5,7 @@ layout: home
 <div class="docs-hero">
   <div class="docs-hero-image">
     <div class="docs-image-container">
-      <img src="/public/sheep.png" alt="技术文档中心" />
+      <img src="./public/sheep.png" alt="技术文档中心" />
     </div>
   </div>
   
@@ -18,7 +18,7 @@ layout: home
   </div>
   
   <div class="docs-hero-actions">
-    <a href="/about" class="docs-btn docs-about-btn">关于我们</a>
+    <a href="/about" class="docs-btn docs-about-btn">关于我</a>
     <a href="/getting-started" class="docs-btn docs-learn-btn">开始学习</a>
   </div>
 </div>

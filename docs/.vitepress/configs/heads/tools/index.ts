@@ -17,6 +17,7 @@ const toolConfig: DefaultTheme.NavItemWithChildren = {
     { text: "Elasticsearch", link: "/tools/elasticsearch/" },
     { text: "Windows", link: "/tools/windows/" },
     { text: "Linux", link: "/tools/linux/" },
+    { text: "designModle",link:"/tools/designModle/" },
   ],
 };
 
