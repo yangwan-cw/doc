@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { nav } from './configs/index.js'
-import { head } from './configs/head'
+import { nav } from './configs/heads'
+import { head } from './configs/heads/head.js'
 import wrapperResult from './js/quotes.js'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 // import vitepressProtectPlugin from "vitepress-protect-plugin"
@@ -13,7 +13,7 @@ export default withMermaid(defineConfig({
     description: "路曼曼其修远兮，吾将上下而求索。——《离骚》",
     head: head,
     base: '/',
-    // lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
+    lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
     themeConfig: {
         logo: '/logo.png',
         search: {
@@ -30,20 +30,28 @@ export default withMermaid(defineConfig({
                 ariaLabel: 'wechat'
             }
         ],
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+              dateStyle: 'short', // 可选值full、long、medium、short
+              timeStyle: 'medium' // 可选值full、long、medium、short
+            },
+          },
         docFooter: {
             prev: '上一页',
             next: '下一页',
         },
         sidebar: {
-         
-            '/about/': [
+            '/preview/': [
                 {
-                    text: '文档大纲',
-                    items: [
-                        { text: '关于', link: '/about/' },
-                    ]
+                  text: 'Guide',
+                  items: [
+                    { text: 'Index', link: '/guide/' },
+                    { text: 'One', link: '/guide/one' },
+                    { text: 'Two', link: '/guide/two' }
+                  ]
                 }
-            ],
+              ],
         },
         outline: {
             level: [1, 6],

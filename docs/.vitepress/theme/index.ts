@@ -5,13 +5,19 @@ import { onMounted, watch, nextTick, h } from 'vue';
 import { useRoute, useData } from 'vitepress';
 import 'virtual:group-icons.css'
 import "vitepress-markdown-timeline/dist/theme/index.css";
-
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+import 'vitepress-plugin-back-to-top/dist/style.css'
 export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {
         // 注册全局组件
         import('./components/MNavLinks.vue').then(module => {
             app.component('MNavLinks', module.default)
+        })
+
+        vitepressBackToTop({
+            // default
+            threshold: 300
         })
     },
     Layout: () => {
