@@ -8,7 +8,6 @@ layout: home
       <img src="./public/sheep.png" alt="技术文档中心" />
     </div>
   </div>
-  
   <div class="docs-hero-text">
     <h1>技术学习文档</h1>
     <p>
