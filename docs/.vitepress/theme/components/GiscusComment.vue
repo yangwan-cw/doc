@@ -3,7 +3,7 @@
       <Giscus
         id="comments"
         :key="route.path"
-        repo="yangwan/doc"
+        repo="yangwan-cw/doc"
         repo-id="R_kgDONJt7fQ"
         category="General"
         category-id="DIC_kwDONJt7fc4ClDWs"

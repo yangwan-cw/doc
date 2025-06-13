@@ -15,7 +15,7 @@ export default withMermaid(defineConfig({
     head: head,
     base: '/',
     lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
-   
+
     themeConfig: {
         logo: '/logo.png',
         search: {
@@ -35,10 +35,10 @@ export default withMermaid(defineConfig({
         lastUpdated: {
             text: '最后更新于',
             formatOptions: {
-              dateStyle: 'short', // 可选值full、long、medium、short
-              timeStyle: 'medium' // 可选值full、long、medium、short
+                dateStyle: 'short', // 可选值full、long、medium、short
+                timeStyle: 'medium' // 可选值full、long、medium、short
             },
-          },
+        },
         docFooter: {
             prev: '上一页',
             next: '下一页',
@@ -46,14 +46,14 @@ export default withMermaid(defineConfig({
         sidebar: {
             '/preview/': [
                 {
-                  text: 'Guide',
-                  items: [
-                    { text: 'Index', link: '/guide/' },
-                    { text: 'One', link: '/guide/one' },
-                    { text: 'Two', link: '/guide/two' }
-                  ]
+                    text: 'Guide',
+                    items: [
+                        { text: 'Index', link: '/guide/' },
+                        { text: 'One', link: '/guide/one' },
+                        { text: 'Two', link: '/guide/two' }
+                    ]
                 }
-              ],
+            ],
         },
         outline: {
             level: [1, 6],
@@ -76,9 +76,16 @@ export default withMermaid(defineConfig({
                     return htmlResult
                 }
             })
+
         },
         //行号显示
         lineNumbers: true,
+        // 图片懒加载
+        image: {
+            lazyLoading: true
+        },
+        // 代码框内复制按钮的 title 提示
+        codeCopyButtonTitle: '复制代码',
     },
     vite: {
         plugins: [

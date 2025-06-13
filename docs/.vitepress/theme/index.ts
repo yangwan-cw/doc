@@ -11,6 +11,16 @@ import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import WDocTitleMeta from './components/WDocTitleMeta.vue' //文章顶部
 import MyLayout from './components/MyLayout.vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCalendarAlt, faSyncAlt, faFileLines, faEye } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+// 添加到图标库
+library.add(faCalendarAlt, faSyncAlt, faFileLines, faEye)
+import './style/dark.css'
+
+
+
 
 export default {
     extends: DefaultTheme,
@@ -21,6 +31,7 @@ export default {
         })
 
         app.component('weiz-title-meta', WDocTitleMeta)
+        app.component('font-awesome-icon', FontAwesomeIcon)
 
       
         vitepressBackToTop({
