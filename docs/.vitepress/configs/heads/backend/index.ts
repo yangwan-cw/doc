@@ -37,7 +37,7 @@ const backendConfig = {
         },
         {
             text: 'Java 工作常见技巧',
-            item: [
+            items: [
                 { text: 'stream流式编程', link: '/java/stream-api' },
             ]
         }

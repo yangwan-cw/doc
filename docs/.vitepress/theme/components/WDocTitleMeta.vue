@@ -53,19 +53,51 @@ const getPV = () => {
 
 onMounted(() => {
   const dateOption = formatDate();
-  lastUpdated.value = dateOption
-    .format(new Date(frontmatter.value.lastUpdated || page.value.lastUpdated!))
-    .replace(/\//g, "-");
 
-  firstCommit.value = dateOption
-    .format(new Date(frontmatter.value.firstCommit!))
-    .replace(/\//g, "-");
+  // lastUpdated
+  try {
+    const last = frontmatter.value.lastUpdated || page.value.lastUpdated;
+    if (last) {
+      const lastDate = new Date(last);
+      if (!isNaN(lastDate.getTime())) {
+        lastUpdated.value = dateOption.format(lastDate).replace(/\//g, "-");
+      } else {
+        lastUpdated.value = "";
+      }
+    } else {
+      lastUpdated.value = "";
+    }
+  } catch (e) {
+    lastUpdated.value = "";
+  }
 
-  const docDomContainer = window.document.querySelector("#VPContent");
-  const words =
-    docDomContainer?.querySelector(".content-container .main")?.textContent ||
-    "";
-  wordCount.value = countTransK(countWord(words));
+  // firstCommit
+  try {
+    const first = frontmatter.value.firstCommit;
+    if (first) {
+      const firstDate = new Date(first);
+      if (!isNaN(firstDate.getTime())) {
+        firstCommit.value = dateOption.format(firstDate).replace(/\//g, "-");
+      } else {
+        firstCommit.value = "";
+      }
+    } else {
+      firstCommit.value = "";
+    }
+  } catch (e) {
+    firstCommit.value = "";
+  }
+
+  // 字数统计
+  try {
+    const docDomContainer = window.document.querySelector("#VPContent");
+    const words =
+      docDomContainer?.querySelector(".content-container .main")?.textContent ||
+      "";
+    wordCount.value = countTransK(countWord(words));
+  } catch (e) {
+    wordCount.value = 0;
+  }
 
   getPV();
 });

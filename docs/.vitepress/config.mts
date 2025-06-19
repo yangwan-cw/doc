@@ -3,7 +3,6 @@ import { nav } from './configs/heads'
 import { head } from './configs/heads/head.js'
 import wrapperResult from './js/quotes.js'
 import { withMermaid } from 'vitepress-plugin-mermaid'
-// import vitepressProtectPlugin from "vitepress-protect-plugin"
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import timeline from "vitepress-markdown-timeline";
 
@@ -15,7 +14,7 @@ export default withMermaid(defineConfig({
     head: head,
     base: '/',
     lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
-
+    nav: nav,
     themeConfig: {
         logo: '/logo.png',
         search: {
@@ -44,16 +43,6 @@ export default withMermaid(defineConfig({
             next: '下一页',
         },
         sidebar: {
-            '/preview/': [
-                {
-                    text: 'Guide',
-                    items: [
-                        { text: 'Index', link: '/guide/' },
-                        { text: 'One', link: '/guide/one' },
-                        { text: 'Two', link: '/guide/two' }
-                    ]
-                }
-            ],
         },
         outline: {
             level: [1, 6],
