@@ -33,7 +33,10 @@
 ## 新手推荐
 新手我非常非常,推荐使用 **VS Code** 作为前端开发的主要编辑器。主要是免费 😭😭
 
-### 新手推荐 VS Code 插件
+
+## VS code 基本配置
+
+###  VS Code 插件
 
 | 插件名称                | 用途/说明                                  | 安装地址                                 |
 |-------------------------|---------------------------------------------|------------------------------------------|
@@ -51,3 +54,33 @@
 
 >[!tip]
 > 上方的插件推荐新手期可以直接全部安装度过。
+
+### 配置
+>[!tip]
+>VSCode Version: 1.96.2，Windows 11
+### 1. 自动保存（Auto Save）
+1. 打开 VSCode。
+2. 点击左下角齿轮图标（设置），选择“设置”。
+3. 在搜索框输入 `auto save`。
+4. 找到“Files: Auto Save”，建议选择 `onWindowChange` 或 `afterDelay`，这样可以自动保存文件。
+
+### 2. 字体大小（Font Size）
+1. 在设置搜索框输入 `font size`。
+2. 找到“Editor: Font Size”，建议设置为 `16` 或你觉得舒适的大小。
+
+### 3. 字体宽度（Word Wrap）
+1. 在设置搜索框输入 `word wrap`。
+2. 找到“Editor: Word Wrap”，建议选择 `on`，这样代码不会超出屏幕。
+
+### 4. 显示空白字符（Render Whitespace）
+1. 在设置搜索框输入 `render whitespace`。
+2. 找到“Editor: Render Whitespace”，建议选择 `all`，这样可以看到空格、Tab 等不可见字符。
+
+### 5. Tab 大小（Tab Size）
+1. 在设置搜索框输入 `tab size`。
+2. 找到“Editor: Tab Size”，建议设置为 `2`，这样缩进更简洁，符合前端主流规范。
+
+---
+
+**快速设置方法**  
+你也可以直接按下 `Ctrl + Shift + P`，输入 `Open Settings (JSON)`，在 `settings.json` 里添加如下内容：
