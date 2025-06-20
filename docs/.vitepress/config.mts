@@ -47,9 +47,18 @@ export default withMermaid(defineConfig({
             prev: '上一页',
             next: '下一页',
         },
-        sidebar: {                    // 侧边栏配置
-            
-        },
+        sidebar: [
+            {
+                text: 'ShardingSphere',
+                items: [
+                    { text: '简介', link: '/tools/shardingSphere/' },
+                    { text: '读写分离', link: '/tools/shardingSphere/读写分离' },
+                    { text: '数据分片', link: '/tools/shardingSphere/数据分片' },
+                    { text: '实现方式', link: '/tools/shardingSphere/实现方式' },
+                    {text:'docker 环境安装', link: '/tools/shardingSphere/docker环境安装'}
+                ]
+            }
+        ],
         outline: {                    // 文档大纲配置
             level: [1, 6],
             label: '文档大纲'

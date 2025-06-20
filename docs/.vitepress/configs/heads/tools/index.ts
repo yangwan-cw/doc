@@ -18,6 +18,8 @@ const toolConfig: DefaultTheme.NavItemWithChildren = {
     { text: "Windows", link: "/tools/windows/" },
     { text: "Linux", link: "/tools/linux/" },
     { text: "designModle",link:"/tools/designModle/" },
+    { text: "Markdown", link: "/tools/markdown/" },
+    { text: "ShardingSphere", link: "/tools/shardingSphere/" },
   ],
 };
 
