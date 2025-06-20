@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 const frontendConfig = {
   text: "前端",
   items: [
@@ -26,20 +28,24 @@ const frontendConfig = {
       text: "HTML",
       items: [
         {
-          text: "前端环境",
+          text: "开发者前端环境",
           link: "/frontend/environment",
         },
         {
-          text: "开始",
+          text: "HTML 基础知识",
           link: "/frontend/html",
         },
         {
-          text: "语义化标签",
-          link: "/frontend/html",
+          text: "HTML 标签",
+          link: "frontend/html-tags",
         },
         {
-          text: "新特性",
-          link: "/frontend/",
+          text: "HTML 知识进阶",
+          link: "/frontend/html-advanced",
+        },
+        {
+          text: "HTML5 新特性",
+          link: "/frontend/html5-new-features",
         },
       ],
     },
