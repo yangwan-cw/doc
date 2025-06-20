@@ -26,6 +26,10 @@ const frontendConfig = {
       text: "HTML",
       items: [
         {
+          text: "前端环境",
+          link: "/frontend/environment",
+        },
+        {
           text: "开始",
           link: "/frontend/html",
         },

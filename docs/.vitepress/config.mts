@@ -19,7 +19,7 @@ export default withMermaid(defineConfig({
     base: '/',                        // 部署基础路径
     lastUpdated: true,                // 显示最后更新时间
 
-    // 主题配置
+    // 主题配置    nav: nav,
     themeConfig: {
         logo: '/logo.png',            // 网站 logo
         search: {
