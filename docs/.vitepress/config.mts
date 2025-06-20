@@ -9,6 +9,8 @@ import wrapperResult from './js/quotes.js'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import timeline from "vitepress-markdown-timeline";
+import { sidebar } from './configs/siderbar/'
+
 
 export default withMermaid(defineConfig({
     // 基础配置
@@ -47,18 +49,7 @@ export default withMermaid(defineConfig({
             prev: '上一页',
             next: '下一页',
         },
-        sidebar: [
-            {
-                text: 'ShardingSphere',
-                items: [
-                    { text: '简介', link: '/tools/shardingSphere/' },
-                    { text: '读写分离', link: '/tools/shardingSphere/读写分离' },
-                    { text: '数据分片', link: '/tools/shardingSphere/数据分片' },
-                    { text: '实现方式', link: '/tools/shardingSphere/实现方式' },
-                    {text:'docker 环境安装', link: '/tools/shardingSphere/docker环境安装'}
-                ]
-            }
-        ],
+        sidebar: sidebar,
         outline: {                    // 文档大纲配置
             level: [1, 6],
             label: '文档大纲'
