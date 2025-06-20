@@ -1,28 +1,32 @@
+/**
+ * VitePress 配置文件
+ * 用于配置网站的基本信息、主题、导航等
+ */
 import { defineConfig } from 'vitepress'
 import { nav } from './configs/heads'
 import { head } from './configs/heads/head.js'
 import wrapperResult from './js/quotes.js'
 import { withMermaid } from 'vitepress-plugin-mermaid'
-// import vitepressProtectPlugin from "vitepress-protect-plugin"
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import timeline from "vitepress-markdown-timeline";
 
-
 export default withMermaid(defineConfig({
-    lang: 'zh-CN',//语言，可选 en-US
-    title: "烊婉的学习笔记",
-    description: "路曼曼其修远兮，吾将上下而求索。——《离骚》",
-    head: head,
-    base: '/',
-    lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳 //
+    // 基础配置
+    lang: 'zh-CN',                    // 网站语言
+    title: "烊婉的学习笔记",          // 网站标题
+    description: "路曼曼其修远兮，吾将上下而求索。——《离骚》", // 网站描述
+    head: head,                       // 自定义头部配置
+    base: '/',                        // 部署基础路径
+    lastUpdated: true,                // 显示最后更新时间
 
+    // 主题配置
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/logo.png',            // 网站 logo
         search: {
-            provider: 'local'
+            provider: 'local'         // 本地搜索
         },
-        nav,
-        socialLinks: [
+        nav,                          // 导航栏配置
+        socialLinks: [                // 社交链接
             { icon: 'github', link: 'https://github.com/yangwan-cw' },
             {
                 icon: {
@@ -32,71 +36,55 @@ export default withMermaid(defineConfig({
                 ariaLabel: 'wechat'
             }
         ],
-        lastUpdated: {
+        lastUpdated: {                // 最后更新时间配置
             text: '最后更新于',
             formatOptions: {
-                dateStyle: 'short', // 可选值full、long、medium、short
-                timeStyle: 'medium' // 可选值full、long、medium、short
+                dateStyle: 'short',    // 日期格式
+                timeStyle: 'medium'    // 时间格式
             },
         },
-        docFooter: {
+        docFooter: {                  // 文档页脚配置
             prev: '上一页',
             next: '下一页',
         },
-        sidebar: {
-            '/preview/': [
-                {
-                    text: 'Guide',
-                    items: [
-                        { text: 'Index', link: '/guide/' },
-                        { text: 'One', link: '/guide/one' },
-                        { text: 'Two', link: '/guide/two' }
-                    ]
-                }
-            ],
+        sidebar: {                    // 侧边栏配置
+            
         },
-        outline: {
+        outline: {                    // 文档大纲配置
             level: [1, 6],
             label: '文档大纲'
         },
-        footer: {
+        footer: {                     // 页脚配置
             message: wrapperResult[Math.floor(Math.random() * wrapperResult.length)]
         },
     },
+
+    // Markdown 配置
     markdown: {
         config(md) {
-            md.use(groupIconMdPlugin) //代码组图标
-            md.use(timeline);
-            // 创建 markdown-it 插件
+            md.use(groupIconMdPlugin)  // 代码组图标插件
+            md.use(timeline);          // 时间线插件
+            
+            // 自定义 Markdown 渲染规则
             md.use((md) => {
-                // 组件插入h1标题下
                 md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
                     let htmlResult = slf.renderToken(tokens, idx, options)
                     if (tokens[idx].tag === 'h1') htmlResult += `<weiz-title-meta />`
                     return htmlResult
                 }
             })
-
         },
-        //行号显示
-        lineNumbers: true,
-        // 图片懒加载
+        lineNumbers: true,            // 显示行号
         image: {
-            lazyLoading: true
+            lazyLoading: true         // 图片懒加载
         },
-        // 代码框内复制按钮的 title 提示
-        codeCopyButtonTitle: '复制代码',
+        codeCopyButtonTitle: '复制代码', // 代码复制按钮提示
     },
+
+    // Vite 配置
     vite: {
         plugins: [
-            //   vitepressProtectPlugin({
-            //     // disableF12: true, // 禁用F12开发者模式
-            //     // disableCopy: true, // 禁用文本复制
-            //     // disableSelect: true, // 禁用文本选择
-            //   }),
-            groupIconVitePlugin() //代码组图标
-
+            groupIconVitePlugin()     // 代码组图标 Vite 插件
         ],
     },
-})
-)
+}))
