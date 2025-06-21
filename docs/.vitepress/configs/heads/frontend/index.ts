@@ -8,19 +8,19 @@ const frontendConfig = {
       items: [
         {
           text: "前端概述",
-          link: "/frontend/",
+          link: "/frontend/htmls/",
         },
         {
           text: "前端基础知识",
-          link: "/frontend/fundamentals",
+          link: "/frontend/htmls/fundamentals",
         },
         {
           text: "如何学习",
-          link: "/frontend/how-to-learn",
+          link: "/frontend/htmls/how-to-learn",
         },
         {
           text: "官方文档",
-          link: "/frontend/documentation",
+          link: "/frontend/htmls/documentation",
         },
       ],
     },
@@ -29,23 +29,23 @@ const frontendConfig = {
       items: [
         {
           text: "开发者前端环境",
-          link: "/frontend/environment",
+          link: "/frontend/htmls/environment",
         },
         {
           text: "HTML 基础知识",
-          link: "/frontend/html",
+          link: "/frontend/htmls/html",
         },
         {
           text: "HTML 标签",
-          link: "frontend/html-tags",
+          link: "frontend/htmls/html-tags",
         },
         {
           text: "HTML 知识进阶",
-          link: "/frontend/html-advanced",
+          link: "/frontend/htmls/html-advanced",
         },
         {
           text: "HTML5 新特性",
-          link: "/frontend/html5-new-features",
+          link: "/frontend/htmls/html5-new-features",
         },
       ],
     },
