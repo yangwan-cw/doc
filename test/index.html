@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Line-height 示例</title>
+  <style>
+    .div_container {
+      width: 200px;
+      height: auto;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .normal {
+      line-height: normal; /* 默认值 */
+      background-color: lightyellow;
+    }
+
+    .tall {
+      line-height: 1px;
+      background-color: lightblue;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-    <h1>Test Page</h1>
-    <img src="https://example.com/image.jpg" alt="Example Image">
-    <p>T</p>
-    
+  <div class="div_container">
+    <p class="normal">这是第一行文字。<br/>这是第二行。</p>
+    <hr />
+    <p class="tall">这是第一行文字。<br/>这是第二行。</p>
+  </div>
 </body>
 </html>

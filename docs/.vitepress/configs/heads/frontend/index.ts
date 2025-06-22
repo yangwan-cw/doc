@@ -4,66 +4,67 @@ const frontendConfig = {
   text: "前端",
   items: [
     {
-      text: "概述",
+      text: "前端概述",
       items: [
         {
-          text: "前端概述",
+          text: "📄 前端概述",
           link: "/frontend/htmls/",
         },
         {
-          text: "前端基础知识",
+          text: "📚 前端基础知识",
           link: "/frontend/htmls/fundamentals",
         },
         {
-          text: "如何学习",
+          text: "🧭 学习指南",
           link: "/frontend/htmls/how-to-learn",
         },
         {
-          text: "官方文档",
+          text: "📖 官方文档",
           link: "/frontend/htmls/documentation",
+        },
+        {
+          text: "🛠️ 开发者前端环境",
+          link: "/frontend/htmls/environment",
         },
       ],
     },
     {
-      text: "HTML",
+      text: "HTML,网页的结构",
       items: [
+      
         {
-          text: "开发者前端环境",
-          link: "/frontend/htmls/environment",
-        },
-        {
-          text: "HTML 基础知识",
+          text: "🔤 HTML 基础知识",
           link: "/frontend/htmls/html",
         },
         {
-          text: "HTML 标签",
+          text: "🏷️ HTML 标签",
           link: "frontend/htmls/html-tags",
         },
         {
-          text: "HTML 知识进阶",
+          text: "✨HTML 知识进阶",
           link: "/frontend/htmls/html-advanced",
         },
         {
-          text: "HTML5 新特性",
+          text: "🚀 HTML5 新特性",
           link: "/frontend/htmls/html5-new-features",
         },
       ],
     },
     {
-      text: "CSS",
+      text: "CSS,网页的衣服",
       items: [
         {
-          text: "开始",
-          link: "/frontend/css",
+          text: "🔤 CSS 知识",
+          link: "/frontend/css/css",
         },
         {
-          text: "css3",
-          link: "/frontend/css3",
+          text: "🔤 CSS3 知识",
+          link: "/frontend/css3/css3",
         },
       ],
     },
     {
-      text: "JavaScript",
+      text: "JavaScript,网页的精华",
       items: [
         {
           text: "基础",

@@ -1,10 +1,10 @@
 <template>
   <div class="weiz-title-meta">
     <div class="tags">
-      <div class="created meta-item" title="发表于">
+      <!-- <div class="created meta-item" title="发表于">
         <font-awesome-icon icon="calendar-alt" class="text-blue" />
         <span>发表于 {{ firstCommit }}</span>
-      </div>
+      </div> -->
       <div class="updated meta-item" title="更新于">
         <font-awesome-icon icon="sync-alt" class="gray text-green" />
         <span>更新于 {{ lastUpdated }}</span>
@@ -117,7 +117,7 @@ onMounted(() => {
       display: flex;
       align-items: center;
       margin-top: 16px;
-      margin-right: 6px;
+      margin-right: 15px;
       &:last-child {
         margin-right: 0;
       }
