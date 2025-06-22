@@ -2,36 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Line-height 示例</title>
+  <title>Content 区域示例</title>
   <style>
-    .div_container {
+    .box {
       width: 200px;
-      height: auto;
-      background-color: #f0f0f0;
-      padding: 10px;
-    }
-
-    .normal {
-      line-height: normal; /* 默认值 */
-      background-color: lightyellow;
-    }
-
-    .tall {
-      line-height: 1px;
+      height: 100px;
       background-color: lightblue;
-    }
-
-    p {
-      margin: 0;
+      border: 2px solid blue;
+      padding: 20px;
+      margin: 30px;
     }
   </style>
 </head>
 <body>
-  <div class="div_container">
-    <p class="normal">这是第一行文字。<br/>这是第二行。</p>
-    <hr />
-    <p class="tall">这是第一行文字。<br/>这是第二行。</p>
+  <div class="box">
+    Content 区域大小为 200 × 100
   </div>
 </body>
 </html>

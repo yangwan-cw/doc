@@ -5,7 +5,11 @@ firstCommit:  2025/6/8 17:48:23
 
 # 前端概述 💻
 ## 学习路线
-![alt text](../public/frontend.png)
+![alt text](../../public/frontend.png)
+
+
+
+
 ## 前端发展 🚀
 - 从静态网页到动态交互：经历了 HTML、CSS、JavaScript 的基础阶段，到 Ajax、jQuery 的动态网页，再到现代前端框架的兴起。
 - 移动端与响应式：随着移动互联网的发展，响应式设计和移动端适配成为主流。

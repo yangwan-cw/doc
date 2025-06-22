@@ -70,16 +70,16 @@ export const sidebar = {
             link: "/frontend/css/selectors",
           },
           {
+            text: "📦 盒模型",
+            link: "/frontend/css/box-model",
+          },
+          {
             text: "📐 定位 & 布局",
             link: "/frontend/css/layout-positioning",
           },
           {
             text: "👀 展示 & 可见性",
             link: "/frontend/css/display-visibility",
-          },
-          {
-            text: "📦 盒模型",
-            link: "/frontend/css/box-model",
           },
           {
             text: "🎨 颜色 & 背景",

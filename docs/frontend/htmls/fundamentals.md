@@ -2,7 +2,7 @@
 
 
 ## 路线
-![alt text](../public/frontendBase.png)
+![alt text](../../public/frontendBase.png)
 
 ## 前端历史 ⏳
 

@@ -10,7 +10,7 @@ firstCommit:  2025/06/08
 :::
 
 ## 路线
-![alt text](../public/how-to-learn.png)
+![alt text](../../public/how-to-learn.png)
 
 ## 了解学习技术是为了什么
 ✨ ​每当我们学习一门新的技术时先问​​: 需要清楚地了解这项技术的出现是为了解决旧技术的哪些不足或痛点。
