@@ -5,11 +5,12 @@ layout: home
 <div class="docs-hero">
   <div class="docs-hero-image">
     <div class="docs-image-container">
-      <img src="./public/sheep.png" alt="技术文档中心" />
+      <img src="./public/sheep.png" alt="全栈技术文档中心" />
+      <hr />
     </div>
   </div>
   <div class="docs-hero-text">
-    <h1>技术学习文档</h1>
+    <h1>全栈技术文档中心</h1>
     <p>
       Html, CSS, JavaScript, 后端：Java, Python, Go 等各类技术栈文档
     </p>
@@ -18,6 +19,7 @@ layout: home
   
   <div class="docs-hero-actions">
     <a href="/about" class="docs-btn docs-about-btn">关于我</a>
+    <a href="/about" class="docs-btn docs-about-btn">项目</a>
     <a href="/getting-started" class="docs-btn docs-learn-btn">开始学习</a>
   </div>
 </div>
@@ -76,7 +78,7 @@ layout: home
   margin-bottom: 1.2rem;
   color: #1a1a1a;
   font-weight: 750;
-  background: linear-gradient(135deg, #07C160 0%, #08a85c 100%);
+  background: #4ABF8A;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -84,12 +86,10 @@ layout: home
   display: inline-block;
 }
 
-
-
-
 .docs-hero-text p {
   font-size: 1.25rem;
-  color: var(--vp-c-text-1);
+  color: #6a8bad;
+  font-weight:bold;
   margin-bottom: 0.6rem;
   max-width: 650px;
   line-height: 1.6;
@@ -146,27 +146,39 @@ layout: home
   transform: translateX(0);
 }
 
-.docs-btn:hover {
+/* .docs-btn:hover {
   transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 10px 25px rgba(7, 193, 96, 0.4);
-  color:white !important;
-}
+  /* box-shadow: 0 10px 25px rgba(7, 193, 96, 0.4); */
+  /* color:white !important; }
+*/
 
 /* 统一设置两个按钮为微信绿色 */
-.docs-about-btn, .docs-learn-btn {
+.docs-about-btn {
+  color: #3eaf7c !important; 
+  border: 1px solid #389d70;
+  /* box-shadow: 0 6px 20px rgba(7, 193, 96, 0.3); */
+  z-index: 2;
+}
+.docs-about-btn:hover{
+    background-color: #4abf8a;
+    color: #fff  !important;
+}
+
+
+.docs-learn-btn {
   color: white !important; 
-  background: #07C160;
-  box-shadow: 0 6px 20px rgba(7, 193, 96, 0.3);
+  background: #4abf8a;
+
   z-index: 2;
 }
 
-.docs-btn:active {
+/* .docs-btn:active {
   transform: translateY(1px);
 }
 
 .docs-btn:hover::after {
   transform: translateX(5px);
-}
+} */
 
 @media (max-width: 768px) {
   .docs-hero {
@@ -219,3 +231,4 @@ layout: home
   }
 }
 </style>
+

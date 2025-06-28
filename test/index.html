@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Content 区域示例</title>
-  <style>
-    .box {
-      width: 200px;
-      height: 100px;
-      background-color: lightblue;
-      border: 2px solid blue;
-      padding: 20px;
-      margin: 30px;
-    }
-  </style>
-</head>
-<body>
-  <div class="box">
-    Content 区域大小为 200 × 100
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>min-width and max-width Example</title>
+  </head>
+  <body>
+    <div id="app">
+      <p>123</p>
+      <div v-bind:class="{ active: isActive }">123</div>
+      <div v-bind:class="classObject">345</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+      var app = new Vue({
+        el: "#app", // Vue 实例挂载到 id="app" 元素上
+        data: {
+          isActive: true,
+          classObject: {
+            active: true,
+            "text-danger": false,
+          },
+        },
+      });
+    </script>
+    <style>
+      .active {
+        color: red;
+      }
+    </style>
+  </body>
 </html>
